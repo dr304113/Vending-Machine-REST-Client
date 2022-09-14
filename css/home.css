@@ -1,0 +1,116 @@
+#mainContainer {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'comic sans ms';
+}
+
+.back-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-image {
+        width: auto;
+        height: 100%;
+    }
+}
+#thumbnail1 {
+    width: 20%;
+    padding-top: 25px;
+}
+
+#thumbnail2 {
+    width: 20%;
+    padding-top: 25px;
+}
+
+/* Vending Machine Header */
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Total $ In, Messages, Change */
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#messageField {
+    height: 120%;
+    width: 120%;
+
+}
+
+#moneyContainer,
+#businessContainer,
+#changeContainer {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.form-control {
+    text-align: center;
+}
+
+td {
+    width: 33%;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.342);
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    background-color: rgba(245, 245, 245, 0.562);
+}
+
+.card:active {
+    transform: scale(1);
+    border-color: rgba(4, 4, 5, 0.801);
+
+}
+
+.itemId {
+    text-align: left;
+    margin-bottom: auto;
+}
+
+.itemName {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.itemQuantity {
+    font-style: italic;
+    margin: auto;
+}
+
+.itemPrice {
+    padding-bottom: 5px;
+}
