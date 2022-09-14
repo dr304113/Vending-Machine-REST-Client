@@ -6,6 +6,6 @@ A RESTful web application used to simulate the process of a vending machine. Lis
 
 Technologies Used:
 
-![Tech Used](https://skills.thijs.gg/icons?i=html,css,bootstrap,js,jquery,git,vscode)](https://skills.thijs.gg)
+![Tech Used](https://skills.thijs.gg/icons?i=html,css,bootstrap,js,jquery,git,vscode)
 
 <img src="image.png">
