@@ -35,7 +35,6 @@ function loadAllItems() {
 }
 
 function insertButtonTemplate(item) {
-
     var buttonTemplate = '<td>';
     buttonTemplate += '<div class="card" onClick="fillItemSelectionField(' + item.id + ');">';
     buttonTemplate += '<div class="card-body">';
