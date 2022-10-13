@@ -6,7 +6,7 @@ function loadAllItems() {
     var rowDiv = "";
     $.ajax({
         type: 'GET',
-        url: 'http://vending.us-east-1.elasticbeanstalk.com/items',
+        url: 'https://vending.us-east-1.elasticbeanstalk.com/items',
         success: function (itemArray) {
             $.each(itemArray, function (index, item) {
 
@@ -115,7 +115,7 @@ function vendItem() {
 
     $.ajax({
         type: 'POST',
-        url: 'http://vending.us-east-1.elasticbeanstalk.com/money/' + amount + '/item/' + id,
+        url: 'https://vending.us-east-1.elasticbeanstalk.com/money/' + amount + '/item/' + id,
         dataType: "json",
         success: function (data, status) {
             $('#moneyInField').val('0.00');
