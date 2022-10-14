@@ -29,7 +29,7 @@ function loadAllItems() {
             $('#errorMessages')
                 .append($('<li>')
                     .attr({ class: 'list-group-item list-group-item-danger' })
-                    .text('Error calling web service. Please try again later.'));
+                    .text('Error calling web service. You may need to turn off your ad blocker. Please try again later.'));
         }
     });
 }
